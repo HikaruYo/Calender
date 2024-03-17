@@ -541,6 +541,22 @@ body {
     background-color: transparent;
     color: var(--primary-clr);
 }
+
+/* Clock */
+.clock {
+    position: flex;
+    height: 28px;
+    padding-left: 70px;
+    margin-bottom: 4px;
+}
+
+.clock #time {
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    color: #878895;
+}
   
 /* media queries */  
 @media screen and (max-width: 1000px) {
